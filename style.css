@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
+body{
+    margin: 0;
+    font-family: 'Noto Sans';
+    flex-direction: column;
+    background: rgb(102, 90, 209);
+}
+
+/*capa e mine */
+.loja{
+    width: 1300px;
+    height: 100vh;
+    background: rgb(102, 90, 209);
+    display: flex;
+}
+
+.left-loja{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.right-loja{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-mine{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px 90px;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #5d3186;
+    background: rgb(86, 76, 177);
+}
+
+.card-capa{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 50px;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #9962cc;
+    background-image: "mine.png";
+}
+
+.mine-fa{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.mine-fa > h1 {
+    color: #00ff88;
+}
+
+.btn-cp{
+    width: 100%;
+    padding: 15px 0px;
+    margin: 25px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 2px;
+    color: #2b134b;
+    background-color: #00ff88;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px #08b162;
+}
+
+.pg-loja{
+    width: 70px;
+    height: 30px;
+    padding: 0px 0px;
+    margin: 5px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 2px;
+    color: #2b134b;
+    background-color: #00ff88;
+    cursor: pointer;
+}
+
+.baner{
+    width: 100%;
+    padding: 0px 0px;
+    margin: 0px;
+}
+
+@media only screen and (max-width: 600px) {
+    .card-mine,
+    .card-capa {
+        width: 90%; /* Reduzir ainda mais a largura dos cartões */
+        padding: 15px; /* Espaçamento reduzido */
+    }
+    .btn-cp {
+        width: 70%; /* Reduzir a largura do botão */
+    }
+}
+
+.qr{
+
+    margin: 20px;
+}
